@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+html {
+    background: #6696cc;
+}
+
+.body-content {
+    padding-top: 20vh;
+}
+
+.container {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 2px solid White;
+    border-radius: 15px;
+    background: white;
+}
+
+.logo {
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+.logo img {
+    width: 95px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item {
+    margin: 5px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.form-item label {
+    display: block;
+    padding: 2px;
+    font-size: 20px;
+    width: 100px;
+}
+
+.form-item input {
+    width: 320px;
+    height: 35px;
+    border: 2px solid #e1dede69;
+    border-radius: 20px;
+    background: #e1dede69;
+    color: grey;
+    padding: 4px padding-right:10px;
+    padding-left: 10px
+}
+
+.form-btns {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.form-btns button {
+    margin: auto;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: 2px solid;
+    border-radius: 15px;
+    color: white;
+    background: #178cc6;
+    width: 280px;
+    cursor: pointer;
+}
+
+.options {
+    padding-top: 15px;
+    margin: auto;
+}
+
+.options a {
+    text-decoration: none;
+    color: black;
+    margin: 0 40px;
+    font-size: 15px;
+}
+
+.options a:hover {
+    color: grey;
+}
+
+p {
+    text-align: center;
+    font-size: 10px;
+}
